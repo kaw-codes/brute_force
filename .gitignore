@@ -1,0 +1,4 @@
+src/*.o
+brute_force
+app/*.o
+vulnerable_app
