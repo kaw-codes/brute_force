@@ -3,7 +3,7 @@ A cybersecurity-related project about brute-force attack.
 
 Here is 3 way to use this project:
 
-### GENERATOR MODE: 
+### 1. GENERATOR MODE: 
 
 `./brute_force [-h|-t|-zSIZE]`
 
@@ -12,19 +12,18 @@ Here is 3 way to use this project:
     -t --time : gives you the time spent to generate
     -z[N] --size[=N] : set the generation's max size (default : will automaticaly increment the size without ending)
 
-### CRACKER MODE: 
+### 2. CRACKER MODE: 
 
 `./brute_force -c PASSWD [-h]`
 
     to crack the password you enter and to tell you the time spent
     -h --help : displays help and exit
 
-### SIMULATE AN ATTACK MODE: 
+### 3. SIMULATE AN ATTACK MODE: 
 
 `./brute_force [-zSIZE] | ./vulnerable_app` or `make attack [SIZE=N]`
 
-    to simulate an attack on a vulnarable program 'vulnarable_app'
-    to try to find the secret password by testing every possibilites
+    to simulate an attack on a vulnarable program 'vulnarable_app' by trying to find the secret password by testing every possibilites
 
 ## Files
 
