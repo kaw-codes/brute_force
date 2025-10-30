@@ -7,7 +7,8 @@ Here is 3 way to use this project:
 
     ./brute_force [-h|-t|-zSIZE]`
 
-`to generate and print all the possible combinations of characters`
+To generate and print all the possible combinations of characters.
+
 - `-h --help` : displays help and exit
 - `-t --time` : gives you the time spent to generate
 - `-z[N] --size[=N]` : set the generation's max size (default : will automaticaly increment the size without ending)
@@ -16,9 +17,9 @@ Here is 3 way to use this project:
 
     ./brute_force -c PASSWD [-h]
 
-`to crack the password you enter and to tell you the time spent`
+To crack the password you enter and to tell you the time spent.
 
-`-h --help` : displays help and exit
+- `-h --help` : displays help and exit
 
 ### 3. SIMULATE AN ATTACK MODE: 
 
@@ -28,7 +29,7 @@ OR
 
     make attack [SIZE=N]
 
-`to simulate an attack on a vulnarable program 'vulnarable_app' by trying to find the secret password by testing every possibilites`
+To simulate an attack on a vulnarable program 'vulnarable_app' by trying to find the secret password by testing every possibilites.
 
 ## Files
 
