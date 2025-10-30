@@ -5,25 +5,30 @@ Here is 3 way to use this project:
 
 ### 1. GENERATOR MODE: 
 
-`./brute_force [-h|-t|-zSIZE]`
+    ./brute_force [-h|-t|-zSIZE]`
 
-    to generate and to print all the possible combinations of characters
-    -h --help : displays help and exit
-    -t --time : gives you the time spent to generate
-    -z[N] --size[=N] : set the generation's max size (default : will automaticaly increment the size without ending)
+`to generate and print all the possible combinations of characters`
+- `-h --help` : displays help and exit
+- `-t --time` : gives you the time spent to generate
+- `-z[N] --size[=N]` : set the generation's max size (default : will automaticaly increment the size without ending)
 
 ### 2. CRACKER MODE: 
 
-`./brute_force -c PASSWD [-h]`
+    ./brute_force -c PASSWD [-h]
 
-    to crack the password you enter and to tell you the time spent
-    -h --help : displays help and exit
+`to crack the password you enter and to tell you the time spent`
+
+`-h --help` : displays help and exit
 
 ### 3. SIMULATE AN ATTACK MODE: 
 
-`./brute_force [-zSIZE] | ./vulnerable_app` or `make attack [SIZE=N]`
+    ./brute_force [-zSIZE] | ./vulnerable_app
 
-    to simulate an attack on a vulnarable program 'vulnarable_app' by trying to find the secret password by testing every possibilites
+OR
+
+    make attack [SIZE=N]
+
+`to simulate an attack on a vulnarable program 'vulnarable_app' by trying to find the secret password by testing every possibilites`
 
 ## Files
 
