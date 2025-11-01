@@ -5,7 +5,7 @@ Here is 3 way to use this project:
 
 ### 1. GENERATOR MODE: 
 
-    ./brute_force [-h|-t|-zSIZE]`
+    ./brute_force [-h|-t|-zSIZE]
 
 To generate and print all the possible combinations of characters.
 
